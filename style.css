@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+  background: #000000;
+  
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.container {
+  position: absolute;
+  height: 300pt;
+  width: 250pt;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.player {
+  position: absolute;
+  height: 50%;
+  width: 103%;
+  background: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
+  z-index: 4;
+  bottom: -17%;
+}
+
+.cover{
+  position: absolute;
+  width: 103%;
+  top: -7%;
+  transition: 1s;
+  z-index: 3;
+}
+
+
+.artist {
+  position: absolute;
+  z-index: 4;
+  color: #c1ff06;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  bottom: 21%;
+  left: 28%;
+}
+
+.song{
+  position: absolute;
+  z-index: 4;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  bottom: 16%;
+  left: 28%;
+}
+
+.play-pause {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  filter: invert(1);
+  cursor: pointer;
+  bottom: 15%;
+  z-index: 4;
+  font-size: 53px;
+  left: 9%;
+  transition: .3s;
+}
+
+.play-pause:hover {
+  opacity: .75;
+}
+
+.next-song,
+.previous-song {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  filter: invert(1);
+  cursor: pointer;
+  bottom: 13.5%;
+  font-size: 40px;
+  z-index: 4;
+  transition: .3s;
+}
+
+.next-song:hover,
+.previous-song:hover {
+    opacity: .75;
+  }
+
+.next-song {
+  right: 10%;
+}
+
+.previous-song {
+  right: 10.3%;
+  bottom: 21.5%;
+}
+
+.progress-container {
+  position: absolute;
+  background: #221f1f;
+  border-radius: 5px;
+  width: 100%;
+  height: 10px;
+  z-index: 4;
+  width: 190pt;
+  bottom: 5%;
+  border-radius: 30px;
+  left: 12%;
+  cursor: pointer;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+
+
+}
+.progress {
+  background: #fff;
+  border-radius: 5px;
+  width: 150px;
+  height: 6px;
+  top: 5px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 85vh;
+}
+.year {
+  font-family: 'Poppins', sans-serif;
+}
+.github-link {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.7s;
+  margin-left: 7px;
+}
+.github-link:hover {
+  color: #afe217;
+}
+.player_logo {
+    width: 135px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./assets/svg/free-icon-ukraine-197572.png");
+    transition: filter 0.7s;
+}
