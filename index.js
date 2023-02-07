@@ -11,8 +11,8 @@ const progressContainer = document.querySelector('.progress-container');
 const progress = document.querySelector('.progress');
 
 //Songs arrs
-const songs = ["вороги","дідько, я у розпачі","божевілля двох"];
-const artists = ['хейтспіч', 'Mistmorn','Mistmorn'];
+const songs = ["вороги","дідько, я у розпачі","божевілля двох", "я вб'ю всіх богів", 'сліди' ];
+const artists = ['хейтспіч', 'Mistmorn','Mistmorn', 'хейтспіч', 'хейтспіч'];
 
 //Default song
 let songIndex = 0;
